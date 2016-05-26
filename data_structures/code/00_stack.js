@@ -54,7 +54,7 @@ Stack.prototype.peek = function () {
   if (this.isEmpty()) {
     throw new Error('Cannot peek empty Stack');
   } else {
-    return this._stack[this.top];
+    return this._stack[this._top];
   }
 };
 
