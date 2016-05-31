@@ -25,7 +25,7 @@
  * 
  * Space Complexity:
  * 
- * Worst-case is O(1), as it does not require additional space to sort an array.
+ * Worst-case is O(1), as it does not require additional space to sort the array.
  * 
  */
 
