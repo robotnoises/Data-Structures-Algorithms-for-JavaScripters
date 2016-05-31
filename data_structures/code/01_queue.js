@@ -1,6 +1,21 @@
 /**
  * Queue
  * 
+ * Visualization:
+ * 
+ * Much like its namesake, a Queue is basically a line at the Grocery store. Whoever gets
+ * in line first will be the first to exit. This is why it is referred to as a "first-in, 
+ * first-out" data structure.
+ * 
+ * Time Complexity:
+ * 
+ * Worst-case for Insertion & Deletion is constant, O(1)
+ * Worst-case for Search & Access is proportional to the size of the Stack, O(n)
+ * 
+ * Space Complexity:
+ * 
+ * O(n)
+ * 
  */
 
 function Queue() {

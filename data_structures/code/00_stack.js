@@ -8,7 +8,7 @@
  * the rest of the CDs. Conversely, the last CD you placed will be on top. If you wish to access 
  * each CD without knocking-over your stack, you'll need to start at the top (last CD) and
  * work your way down to the bottom (first CD). This is why a Stack is referred to as a 
- * "first-in, last-out" Data Structure. 
+ * "first-in, last-out" data structure. 
  * 
  * Time Complexity:
  * 
