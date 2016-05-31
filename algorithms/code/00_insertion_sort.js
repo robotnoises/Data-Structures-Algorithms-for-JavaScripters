@@ -31,7 +31,10 @@
 
 function insertion_sort(array) {
   
-  var i, j, key, limit;
+  var i
+    , j
+    , key
+    , limit;
   
   for (i = 0, limit = array.length; i < limit; i++) {
 
