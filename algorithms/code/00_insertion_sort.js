@@ -1,7 +1,7 @@
 /**
  * Insertion sort
  * 
- * Best for sorting small or mostly-sorted sets of data. 
+ * A basic sorting algorithm best-suited for sorting small or mostly-sorted sets of data (it's not very useful). 
  * 
  * Visualization:
  * 
@@ -12,7 +12,7 @@
  * 1) Select a card. Slide it up so that it is no longer in the row of cards.
  * 2) Compare the card to its neighbor to the left (if there is one)
  * 3) If the neighbor card is higher than the selected card, shift the neighbor to the right and repeat
- *    step (2) using the next neighbor to the left.
+ *    step 2 using the next neighbor to the left. If not, go to step 4.
  * 4) Insert the original selected card into the empty space in the row of cards.
  * 
  * By using this pattern, all of the cards to the left of the selected card will be sorted. Your goal is simply
@@ -38,11 +38,14 @@ function insertion_sort(array) {
   
   for (i = 0, limit = array.length; i < limit; i++) {
 
-    // grab the current key
+    // Grab the current key
     key = array[i];
     
-    // Compare the current key to the sorted items to its left. If the key
-    // is less than the index value, shift it to the right by one.
+    /**
+     * Compare the current key to the sorted items to its left. If the key
+     * is less than the index value, shift it to the right by one. 
+     */
+
     for (j = (i - 1); j >= 0 && (array[j] > key); j--) {
       // Shift it to the right
       array[j + 1] = array[j];
